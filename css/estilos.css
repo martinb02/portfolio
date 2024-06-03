@@ -38,3 +38,10 @@ button{
     display: flex; 
     align-items: center;
 }
+
+.servicios{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%;
+}
