@@ -4,7 +4,13 @@
     background-color: #191919;
     font-family: "Audiowide", sans-serif;
     font-weight: 5;
-    /* padding: 5px; */
+    padding: 5px;
+}
+
+label,input, textarea, select, button, form {
+    padding: 0; /* Anula el padding global */
+    margin: 0;  /* Anula el margen global si es necesario */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el tamaño total del elemento */
 }
 
 header{
@@ -70,7 +76,7 @@ nav{
 
 .acerca img{
     flex: 1 1 500px; /* Ancho mínimo de 150px */
-    max-width: 1200px; /* Ancho máximo de 200px */
+    max-width: 700px; /* Ancho máximo de 200px */
         aspect-ratio: 4 / 3;
     width: 100%;
     object-fit: cover;
