@@ -5,6 +5,9 @@
 
 header{
     background-color: #151515 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .hero{
     background-color: #151515 ;
@@ -38,4 +41,9 @@ button{
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100%;
+}
+
+.espacio{
+    display: flex;
+    justify-content: space-between;
 }
