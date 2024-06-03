@@ -66,3 +66,25 @@ nav{
     justify-content: space-between; 
     align-items: center; 
 }
+
+.acerca img{
+    flex: 1 1 500px; /* Ancho mínimo de 150px */
+    max-width: 1200px; /* Ancho máximo de 200px */
+        aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery img {
+    flex: 1 1 300px; /* Ancho mínimo de 150px */
+    max-width: 500px; /* Ancho máximo de 200px */
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+}
