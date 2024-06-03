@@ -2,18 +2,28 @@
     color: white;
     background-color: #191919;
 }
+
 header{
     background-color: #151515 ;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%;
 }
 .hero{
     background-color: #151515 ;
     display: flex; /* Para colocar la imagen y el texto en línea */
     align-items: center; /* Para centrar verticalmente los elementos */
+    
 }
 footer{
     background-color: #151515 ;
     display: flex; 
     align-items: center;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%;
 }
 
 .en_contacto{
