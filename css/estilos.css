@@ -7,6 +7,8 @@ header{
 }
 .hero{
     background-color: #151515 ;
+    display: flex; /* Para colocar la imagen y el texto en línea */
+    align-items: center; /* Para centrar verticalmente los elementos */
 }
 footer{
         background-color: #151515 ;
