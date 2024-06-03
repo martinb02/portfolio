@@ -1,6 +1,9 @@
 * {
     color: white;
     background-color: #191919;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 header{
@@ -13,6 +16,7 @@ header{
     background-color: #151515 ;
     display: flex; /* Para colocar la imagen y el texto en línea */
     align-items: center; /* Para centrar verticalmente los elementos */  
+
 }
 footer{
     background-color: #151515 ;
@@ -27,6 +31,9 @@ footer{
 
 button{
     background-color: #8acd54;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .contacto{
