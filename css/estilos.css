@@ -5,10 +5,6 @@
 
 header{
     background-color: #151515 ;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100%;
 }
 .hero{
     background-color: #151515 ;
@@ -20,10 +16,6 @@ footer{
     background-color: #151515 ;
     display: flex; 
     align-items: center;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100%;
 }
 
 .en_contacto{
@@ -39,7 +31,9 @@ button{
     align-items: center;
 }
 
-.servicios{
+
+
+.centrar{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
