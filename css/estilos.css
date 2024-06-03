@@ -4,6 +4,7 @@
     background-color: #191919;
     font-family: "Audiowide", sans-serif;
     font-weight: 5;
+    /* padding: 5px; */
 }
 
 header{
@@ -87,4 +88,51 @@ nav{
     aspect-ratio: 4 / 3;
     width: 100%;
     object-fit: cover;
+}
+
+.fondonegro{
+    background-color: #151515;
+}
+
+.fondonegro div{
+    background-color: #151515;
+}
+
+.fondonegro img{
+    background-color: #151515;
+}
+
+.fondonegro h2{
+    background-color: #151515;
+}
+
+.fondonegro h1{
+    background-color: #151515;
+}
+
+.fondonegro p{
+    background-color: #151515;
+}
+
+.fondonegro i{
+    background-color: #151515;
+}
+
+.fondonegro a{
+    background-color: #151515;
+}
+
+.fondonegro section{
+    background-color: #151515;
+}
+
+.fondonegro h4{
+    background-color: #151515;
+}
+.fondonegro h3{
+    background-color: #151515;
+}
+
+.fondonegro form{
+    background-color: #151515;
 }
