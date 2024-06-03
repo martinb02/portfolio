@@ -1,7 +1,7 @@
-*{
-    
-}
+* {
+    color: white;
 
+}
 header{
     background-color: #151515 ;
 }
@@ -10,4 +10,8 @@ header{
 }
 footer{
         background-color: #151515 ;
+}
+
+.en_contacto{
+    background-color: #151515
 }
