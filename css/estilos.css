@@ -7,6 +7,12 @@
     padding: 5px;
 }
 
+p {
+    font-size: 0.8em; /* Hace el texto más pequeño, 80% del tamaño original */
+    font-weight: 300; /* Hace el texto menos grueso */
+}
+
+
 label,input, textarea, select, button, form {
     padding: 0; /* Anula el padding global */
     margin: 0;  /* Anula el margen global si es necesario */
@@ -142,3 +148,4 @@ nav{
 .fondonegro form{
     background-color: #151515;
 }
+
