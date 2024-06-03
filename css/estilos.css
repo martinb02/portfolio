@@ -23,3 +23,8 @@ footer{
 button{
     background-color: #8acd54;
 }
+
+.contacto{
+    display: flex; 
+    align-items: center;
+}
