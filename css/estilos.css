@@ -77,6 +77,10 @@ main{
     justify-content: space-around;
 }
 
+.verde{
+    color: #8acd54;
+}
+
 .hero img{
     width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
@@ -91,16 +95,35 @@ main{
 
 .punto img{
     width: 2%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: 50%;
+    height: 55%;
     padding-left: 25%;
 }
 
 .sevicios{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-    align-items: flex-start; /* Centra verticalmente */
+    align-items: stretch; /* Centra verticalmente */
     height: 100%;
+    padding: 0% 5%;
 }
+
+.sevicios div{
+    margin:0% 1% ;
+    padding: 1%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+.sevicios img{
+    height: 30%;
+    width: 30%;
+}
+
+
+
+
 
 footer{
     background-color: #151515 ;
