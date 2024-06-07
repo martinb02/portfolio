@@ -4,7 +4,7 @@
     background-color: #191919;
     font-family: "Audiowide", sans-serif;
     font-weight: 5;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 p {
@@ -13,35 +13,68 @@ p {
 }
 
 
-label,input, textarea, select, button, form {
-    padding: 0; /* Anula el padding global */
-    margin: 0;  /* Anula el margen global si es necesario */
-    box-sizing: border-box; /* Asegura que padding y border se incluyan en el tamaño total del elemento */
-}
-
 header{
     background-color: #151515 ;
     display: flex;
     justify-content: space-between;
-    margin: 0px 40px;
+    padding: 0% 5% ;
     align-items: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1000; /* Ajusta según sea necesario para asegurar que el encabezado esté por encima de otros elementos */
 }
+
+a{
+    text-decoration: none;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagen img{
+    width: 25%; 
+    height: 25%;
+    display: flex;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-grow: 0.5;
+    
+}
+
+
 main{
-    margin: 0px 40px;
+    margin: 0px ;
+    /* padding: 0px 20px; */
+    padding-top: 3%;
 }
 
 .hero{
     background-color: #151515 ;
     display: flex; /* Para colocar la imagen y el texto en línea */
     align-items: center; /* Para centrar verticalmente los elementos */  
-
+    height: 65vh;
 }
 footer{
     background-color: #151515 ;
     display: flex; 
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0px 40px;
+    /* margin: 0% 5% ; */
+    padding: 5% ;
+    /* width: 90%; */
 }
 
 .en_contacto{
@@ -50,9 +83,9 @@ footer{
 
 button{
     background-color: #8acd54;
-    padding: 5px 15px;
+    padding: 10px 15px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .contacto{
@@ -74,15 +107,11 @@ button{
     justify-content: space-between;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-}
+
 
 .acerca img{
-    flex: 1 1 500px; /* Ancho mínimo de 150px */
-    max-width: 700px; /* Ancho máximo de 200px */
+    flex: 1 1 600px; /* Ancho mínimo de 150px */
+    max-width: 40%; /* Ancho máximo de 200px */
         aspect-ratio: 4 / 3;
     width: 100%;
     object-fit: cover;
@@ -96,10 +125,14 @@ nav{
 }
 .gallery img {
     flex: 1 1 300px; /* Ancho mínimo de 150px */
-    max-width: 500px; /* Ancho máximo de 200px */
+    max-width: 400px; /* Ancho máximo de 200px */
     aspect-ratio: 4 / 3;
     width: 100%;
     object-fit: cover;
+}
+
+borde{
+    border: solid white 2px;
 }
 
 .fondonegro{
@@ -149,3 +182,13 @@ nav{
     background-color: #151515;
 }
 
+.borde{
+    border: solid 1px white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.columna{
+    display: flex;
+    flex-direction:column;
+}
