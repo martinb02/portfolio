@@ -136,11 +136,13 @@ main section{
 .acerca img{
     /* flex: 1 1 600px; Ancho mínimo de 150px */
     /* max-width: 40%; Ancho máximo de 200px */
-        aspect-ratio: 4 / 3;
+    /* aspect-ratio: 4 / 3; */
     width: 50%;
     height: 50%;
     object-fit: cover;
     padding: 5% 0%;
+    border-radius: 15% ;
+
 }
 
 
@@ -199,21 +201,52 @@ main section{
 }
 
 
+.proyectos{
+    padding-left:  5%;
+    padding-right: 5% ;
+}
 
-
-.gallery {
+ .gallery1 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    flex-grow: 1;
     gap: 10px;
     justify-content: center;
 }
-.gallery img {
+
+.gallery1 img {
     flex: 1 1 300px; /* Ancho mínimo de 150px */
-    max-width: 400px; /* Ancho máximo de 200px */
+    max-width: 400px; /*  Ancho máximo de 200px  */
     aspect-ratio: 4 / 3;
-    width: 100%;
+    width: 30%;
     object-fit: cover;
+    padding: 1%;
+    border-radius: 15% ;
 }
+
+.gallery2 {
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery2 .img1 {
+    flex-grow: 0.6;
+    width: 60%;
+    object-fit: cover;
+    padding: 1%;
+    border-radius: 15% ;
+}
+
+.gallery2 .img2 {
+    flex-grow: 0.4;
+    width: 40%;
+    object-fit: cover;
+    padding: 1%;
+    border-radius: 15% ;
+}
+
 
 
 
