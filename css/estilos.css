@@ -211,13 +211,13 @@ main section{
     /* flex-wrap: nowrap; */
     flex-grow: 1;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .gallery1 img {
-    flex: 1 1 300px; /* Ancho mínimo de 150px */
-    max-width: 400px; /*  Ancho máximo de 200px  */
-    aspect-ratio: 4 / 3;
+    max-width: 30%; /*  Ancho máximo de 200px  */
+    /* aspect-ratio: 4 / 3; */
+    flex-grow: 0.3;
     width: 30%;
     object-fit: cover;
     padding: 1%;
@@ -228,7 +228,7 @@ main section{
     display: flex;
     flex-grow: 1;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .gallery2 .img1 {
