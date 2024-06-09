@@ -58,7 +58,7 @@ nav{
 main{
     margin: 0px ;
     /* padding: 0px 20px; */
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 main section{
@@ -89,7 +89,15 @@ main section{
     width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
     /* object-fit: cover; */
+    object-fit: cover;
+    /* padding: 5% 0%; */
     
+}
+
+.icono i{
+    border-radius: 100%;
+    background-color: gray;
+    padding: 1%;
 }
 
 .punto{
@@ -119,10 +127,29 @@ main section{
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 5%;
+    transition: background-color 0.5s, color 0.5s;
 }
 .sevicios img{
     height: 30%;
     width: 30%;
+}
+
+.sevicios div h4,
+.sevicios div p,
+.sevicios div img{
+    transition: 0.5s;
+}
+
+.sevicios :hover {
+    background-color: #8acd54; /* Color de fondo al pasar el mouse */
+    color: #191919;              /* Color de texto al pasar el mouse */
+}
+
+.sevicios div:hover h4,
+.sevicios div:hover p,
+.sevicios div:hover img{
+    background-color: #8acd54; /* Color de fondo al pasar el mouse */
+    color: #191919;              /* Color de texto al pasar el mouse */
 }
 
 .acerca{
@@ -139,10 +166,9 @@ main section{
     /* aspect-ratio: 4 / 3; */
     width: 50%;
     height: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
     padding: 5% 0%;
-    border-radius: 15% ;
-
+    border-radius: 20% ;
 }
 
 
@@ -210,7 +236,7 @@ main section{
     display: flex;
     /* flex-wrap: nowrap; */
     flex-grow: 1;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: space-between;
 }
 
@@ -221,30 +247,31 @@ main section{
     width: 30%;
     object-fit: cover;
     padding: 1%;
-    border-radius: 15% ;
+    border-radius: 20px ;
 }
 
 .gallery2 {
+    margin-top: 2%;
     display: flex;
     flex-grow: 1;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: space-between;
 }
 
 .gallery2 .img1 {
-    flex-grow: 0.6;
-    width: 60%;
+    flex-grow: 0.45;
+    width: 45%;
     object-fit: cover;
-    padding: 1%;
-    border-radius: 15% ;
+    padding: 0.5%;
+    border-radius: 20px ;
 }
 
 .gallery2 .img2 {
-    flex-grow: 0.4;
-    width: 40%;
+    flex-grow: 0.35;
+    width: 35%;
     object-fit: cover;
-    padding: 1%;
-    border-radius: 15% ;
+    padding: 0.5%;
+    border-radius: 20px ;
 }
 
 .contacto{
@@ -293,6 +320,7 @@ main section{
     flex-direction: column;
     justify-content: space-around;
     padding: 3%;
+    border-radius: 7% ;
 }
 
 form{
@@ -314,6 +342,7 @@ input{
     display: inline-block; /* Asegurar que el label sea un elemento de bloque en línea para aplicar el borde inferior correctamente */
     border-bottom: 1px solid gray;
     width: 90%;
+    margin-bottom: 2%;
 
 }
 
@@ -332,8 +361,31 @@ button{
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
 }
 
+.button2{
+    color: #151515;
+    transition: 0.5s;
+}
+
+
+button:hover {
+    background-color: white; /* Color de fondo al pasar el mouse */
+    color: black;              /* Color de texto al pasar el mouse */
+}
+
+
+.button2:hover {
+    background-color: white; /* Color de fondo al pasar el mouse */
+    color: #8acd54;              /* Color de texto al pasar el mouse */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
 
 
 .centrar{
@@ -348,7 +400,10 @@ button{
     justify-content: space-between;
 }
 
-
+.alinear{
+    display: flex;
+    align-items: center;
+}
 
 borde{
     border: solid white 2px;
@@ -377,10 +432,10 @@ borde{
 .fondonegro p{
     background-color: #151515;
 }
-
+/* 
 .fondonegro i{
     background-color: #151515;
-}
+} */
 
 .fondonegro a{
     background-color: #151515;
