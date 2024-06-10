@@ -4,14 +4,12 @@
     background-color: #191919;
     font-family: "Audiowide", sans-serif;
     font-weight: 5;
-    /* padding: 5px; */
 }
 
 p {
     font-size: 0.8em; /* Hace el texto más pequeño, 80% del tamaño original */
     font-weight: 300; /* Hace el texto menos grueso */
 }
-
 
 header{
     background-color: #151515 ;
@@ -94,10 +92,18 @@ main section{
     
 }
 
-.icono i{
+
+.icono a i{
     border-radius: 100%;
     background-color: gray;
     padding: 1%;
+    transition: 0s;
+}
+
+.icono a:hover i{
+    background-color: white;
+    color: #191919;
+    
 }
 
 .punto{
@@ -299,6 +305,12 @@ main section{
     padding: 3%;
     border-radius: 100%;
     background-color: gray;
+    transition: 0s;
+}
+
+.bordeabajo i:hover {
+    background-color: white;
+    color: #191919;
 }
 
 .iconos{
@@ -306,10 +318,16 @@ main section{
     justify-content: space-around;
 }
 
-.iconos i{
-    padding: 20%;
+.iconos i {
+    padding: 35%;
     border-radius: 100%;
     background-color: gray;
+    transition: 0s;
+}
+
+.iconos i:hover {
+    background-color: white;
+    color: #191919;
 }
 
 .en_contacto{

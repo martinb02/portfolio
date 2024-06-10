@@ -1,0 +1,27 @@
+@media (max-width:320px){ 
+    
+}
+/* telefonos pequeños */
+@media (max-width:480px){
+}
+/* telefonos grandes */
+@media (max-width:768px){
+
+}
+/* tables y modo retrato */
+@media (max-width:1024px){
+
+}
+/* tables y modo retrato y moviles mas grandes*/
+@media (max-width:1280px){
+
+}
+/* modo paisaje tables y notebooks prqueñas */
+@media (max-width:1440px){
+
+}
+/* para despot computadores o tables */
+@media (max-width:1920px){
+       
+}
+/* para monitores 2k o 4k o mayores */
