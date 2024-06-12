@@ -244,6 +244,7 @@ main section{
     flex-grow: 1;
     /* gap: 10px; */
     justify-content: space-between;
+    transition: transform 0.3s ease-in-out; /* Suaviza la transición del zoom */
 }
 
 .gallery1 img {
@@ -254,6 +255,8 @@ main section{
     object-fit: cover;
     padding: 1%;
     border-radius: 20px ;
+    transition: transform 0.3s ease-in-out; /* Suaviza la transición del zoom */
+
 }
 
 .gallery2 {
@@ -264,12 +267,21 @@ main section{
     justify-content: space-between;
 }
 
+
+.gallery1 img:hover {
+    transform: scale(1.1); /* Escala la imagen a 110% de su tamaño original */
+  }
+
+ 
+
 .gallery2 .img1 {
     flex-grow: 0.45;
     width: 45%;
     object-fit: cover;
     padding: 0.5%;
     border-radius: 20px ;
+    transition: transform 0.3s ease-in-out; /* Suaviza la transición del zoom */
+
 }
 
 .gallery2 .img2 {
@@ -278,8 +290,17 @@ main section{
     object-fit: cover;
     padding: 0.5%;
     border-radius: 20px ;
+    transition: transform 0.3s ease-in-out; /* Suaviza la transición del zoom */
+
 }
 
+ .gallery2 .img1:hover {
+    transform: scale(1.1); /* Escala la imagen a 110% de su tamaño original */
+}
+
+.gallery2 .img2:hover {
+    transform: scale(1.1); /* Escala la imagen a 110% de su tamaño original */
+}
 .contacto{
     padding: 5%;
 }
