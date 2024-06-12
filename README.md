@@ -24,7 +24,8 @@ Contacto: ¿Quieres trabajar juntos en un proyecto? ¡Genial! Utiliza el formula
 
 El proyecto tiene la siguiente estructura de carpetas:
 
-index.html, css (normalize.css, estilos.css, responsive.css) image (logo.png, mifoto.png, pagina.png, punto.png) README.md
+index.html, css (normalize.css, estilos.css, responsive.css) image (app.png, flujo.png, identidad.png, imagenl .webp, imagen2.jpg, imagen3.png, imagen4.jpg, imagen5m, logo.png, mifoto.png, mifot02.jpg, pagina.png, punto.png
+) README.md
 Para empezar a trabajar con este proyecto, sigue los siguientes pasos:
 
 1. Clonar el repositorio
