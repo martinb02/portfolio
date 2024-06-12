@@ -23,10 +23,11 @@ Contacto: ¿Quieres trabajar juntos en un proyecto? ¡Genial! Utiliza el formula
 ## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de carpetas:
+
 ├── index.html
-
+|
 ├── css
-
+|
 │ ├── normalize.css
 │ ├── estilos.css
 │ └── responsive.css
