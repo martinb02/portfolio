@@ -344,6 +344,10 @@
 }
 /* para despot computadores o tables */
 @media (max-width:1920px){
-
+    .sevicios img{
+        height: 30%;
+        width: 20%;
+    }
+    
 }
 /* para monitores 2k o 4k o mayores */
