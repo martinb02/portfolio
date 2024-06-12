@@ -158,9 +158,9 @@ main section{
     color: #191919;              /* Color de texto al pasar el mouse */
 }
 
-.acerca{
-    /* padding: 0% 5%; */
-}
+/* .acerca{
+    /* padding: 0% 5%; 
+} */
 .acerca div{
     padding: 0% 5%;
 }
@@ -240,7 +240,7 @@ main section{
 
  .gallery1 {
     display: flex;
-    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
     flex-grow: 1;
     /* gap: 10px; */
     justify-content: space-between;
@@ -374,7 +374,8 @@ footer{
     /* width: 90%; */
 }
 
-button{
+
+button, button span, button i{
     background-color: #8acd54;
     padding: 10px 15px;
     text-decoration: none;
@@ -383,18 +384,31 @@ button{
     cursor: pointer;
     transition: 1s;
 }
-
+button span{
+    padding: 3%;
+    /* height: 50%; */
+}
+.bonton{
+    padding-right: 0% 12%;
+}
 .button2{
     color: #151515;
     transition: 0.5s;
 }
+button i{
+    padding: 2%;
+    /* height: 50%; */
+}
 
-
-button:hover {
+button:hover,
+button:hover span,
+button:hover i {
     background-color: white; /* Color de fondo al pasar el mouse */
     color: black;              /* Color de texto al pasar el mouse */
 }
-
+.boton2{
+    display: none ;
+}
 
 .button2:hover {
     background-color: white; /* Color de fondo al pasar el mouse */

@@ -3,25 +3,347 @@
 }
 /* telefonos pequeños */
 @media (max-width:480px){
+    /* main, header,footer{
+        border: solid blue;
+    }
+    section{
+        border: solid blue;
+    } */
+    header{
+        width: 100%;
+    }
+    p{
+        font-size: 1px;
+    }
+    .boton2{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        /* margin-left: 500%; */
+        margin-right: 0% 45%;
+    }
+    nav a,.boton{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+
+
+    header{
+        display: flex;
+        /* justify-content: space-around;*/
+        justify-content: space-between;
+        padding: 0%;
+        margin: 0%;
+        
+
+    }
+    header div{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        /* justify-content: start; */
+        justify-content: space-between;
+
+    }
+    nav {
+
+        display: flex;
+        justify-content: end;
+
+    }
+    .gallery1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery1 img{
+       /* object-fit: contain; */
+       /* display: flex;
+        flex-wrap: wrap; */
+        width: 50%;
+        max-width: 100%;
+    }
+
+    .gallery2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery2 .img1{
+       /* object-fit: contain; */
+       /* display: flex;
+        flex-wrap: wrap; */
+        width: 50%;
+        max-width: 100%;
+    }
+    .gallery2 .img2{
+        /* object-fit: contain; */
+        /* display: flex;
+         flex-wrap: wrap; */
+         width: 50%;
+         max-width: 100%;
+     }
+     .contedor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        /* width: 100%; */
+     }
+     .trabajo{
+        width: 90%;
+        /* min-width: 60%; */
+        
+     }
+     .en_contacto{
+        width: 90%;
+        /* min-width: 60%; */
+        
+     }
+     .sevicios{
+        margin: 0%;
+        padding: 0%; 
+        /* height: 80%; */
+        width: 100%;
+        /* height: 50%; */
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* Centra verticalmente */
+       /* flex-direction: column; */
+       justify-content: center;
+       /* padding-right: 20%; */
+       flex-wrap: wrap;
+     }
+     .sevicios div{
+        margin: 0%;
+        padding: 0%;
+        /* height: 20%; */
+        /* min-width: 60%; */
+     }
+     .sevicios p{
+        
+        height: 100%;
+        width: 100%;
+        
+     }
+     footer{
+        display: flex;
+        flex-wrap: wrap;
+     }
 }
 /* telefonos grandes */
 @media (max-width:768px){
+    *{
+        font-size: 10px;
+    }
+    /* main, header,footer{
+        border: solid blue;
+    }
+    section{
+        border: solid blue;
+    } */
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
 
-}
+    }
+    header div{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        /* justify-content: start; */
+        justify-content: space-around;
+
+    }
+
+    nav a{
+        padding: 2px;
+        font-size: 20px;
+    }
+    nav span{
+        display: none;
+        /* font-size: 5px; */
+    }
+    
+    .imagen{
+        width: 90px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .imagen h4{
+        font-size: 12px;
+    }
+    button{
+        height: 11%;
+        font-size: 10px;
+
+    }
+    
+    .main div{
+        padding-top: 5%;
+        /* margin-top: 30%; */
+    }
+
+    .hero img{
+        display: none;
+    }
+    .acerca img{
+        display: none;
+    }
+    .verde {
+        color: #8acd54;
+        font-size: 25px;
+    }
+    .skills{
+        margin: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Sevicios h3{
+        display: none;
+    }
+
+    .sevicios{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        /* width:50% ;  */
+        justify-content: center;   
+        align-items: center;
+    }
+    
+    .sevicios div{
+        margin: 15px 80px;
+        padding: 5%;
+    }
+    footer div{
+        padding: 20px;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+    .div1 {
+        display: none;
+    }
+
+    .Servicios h3{
+        padding-left: 5%;
+        padding-right: 5%;
+
+        display: none;
+    }
+    
+} 
 /* tables y modo retrato */
 @media (max-width:1024px){
+
+    /* main, header,footer{
+        border: solid red;
+    }
+    section{
+        border: solid red;
+    } */
+    *{
+        font-size: 13px;
+    }
+    .imagen img{
+        width: 20%; 
+        height: 20%;
+    }
+    nav {
+        width: 50%;
+        display: flex;
+        flex-grow: 0.8;
+        justify-content: space-between;
+        
+    }
+
+    nav a{
+        /* width: 100%; */
+        font-size: 10px;
+    }
+    
+    footer p{
+        font-size: 10px;
+
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 14px;
+    } 
+    p{
+        font-size: 13px;
+    } 
+    .punto{
+        display: none;
+    }
+
+   
+
+    .hero{
+        height: 100%;
+    }
+    .hero img{
+        width: 60%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: 60%; /* Ajusta la altura de la imagen al 100% del contenedor */
+        /* object-fit: cover; */
+        object-fit: cover;
+        /* padding: 5% 0%; */
+        
+    }
+    .verde {
+        color: #8acd54;
+        font-size: 25px;
+    }
+
+    .alinear h4{
+        width: 80%;
+    }
+    .skills{
+        margin: 3%;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .acerca img{
+        /* flex: 1 1 600px; Ancho mínimo de 150px */
+        /* max-width: 40%; Ancho máximo de 200px */
+        /* aspect-ratio: 4 / 3; */
+        width: 40%;
+        height: 40%;
+        /* object-fit: cover; */
+        padding: 5% 0%;
+        border-radius: 20% ;
+    }
+    
+
 
 }
 /* tables y modo retrato y moviles mas grandes*/
 @media (max-width:1280px){
-
+   
 }
 /* modo paisaje tables y notebooks prqueñas */
 @media (max-width:1440px){
-
+    
 }
 /* para despot computadores o tables */
 @media (max-width:1920px){
-       
+
 }
 /* para monitores 2k o 4k o mayores */
