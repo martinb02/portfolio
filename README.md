@@ -24,15 +24,20 @@ Contacto: ¿Quieres trabajar juntos en un proyecto? ¡Genial! Utiliza el formula
 
 El proyecto tiene la siguiente estructura de carpetas:
 ├── index.html
+
 ├── css
+
 │ ├── normalize.css
 │ ├── estilos.css
 │ └── responsive.css
+|
 ├── image
+|
 │ ├── logo.png
 │ ├── mifoto.png
 │ ├── pagina.png
 │ └── punto.png
+|
 └── README.md
 Para empezar a trabajar con este proyecto, sigue los siguientes pasos:
 
